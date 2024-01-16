@@ -21,7 +21,7 @@ struct SingleCard: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 100)
-                    .foregroundColor(.black)
+                    .foregroundColor(.white)
             }
             .frame(width: 200, height: 350)
             .background(isAnimate ? colorCard.opacity(0.7) : Color.mint.opacity(0.3))
